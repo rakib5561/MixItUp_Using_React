@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gellaryWrapper {
+  width: 1280px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.gellary-menu {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+
+.gellary-menu button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0px 10px;
+  background-color: transparent;
+  border: 1px solid red;
+}
+
+.gellary-container {
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #282c34;
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.single-item {
+  color: black;
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: skyblue;
+}
